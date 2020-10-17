@@ -52,7 +52,7 @@ namespace Musix.PackedPlugins.Models
         public Assembly LoadPlugin()
         {
             using (MemoryStream DepLoadStream = new MemoryStream())
-            using (Stream DepReadStream = archive.GetEntry("plugin.dll").Open())
+            using (Stream DepReadStream = archive.GetEntry("Plugin.dll").Open())
             {
                 DepReadStream.CopyTo(DepLoadStream);
                 Assembly LoadedAssembly = AppDomain.CurrentDomain.Load(DepLoadStream.ToArray());
