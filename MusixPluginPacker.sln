@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusixPluginPacker", "MusixPluginPacker\MusixPluginPacker.csproj", "{60FC8486-038A-4982-B75F-529422C97B8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Musix.PackedPlugins", "Musix.PackedPlugins\Musix.PackedPlugins.csproj", "{18BD2372-0FF5-426E-A296-3BD6F28AA6FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60FC8486-038A-4982-B75F-529422C97B8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60FC8486-038A-4982-B75F-529422C97B8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60FC8486-038A-4982-B75F-529422C97B8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60FC8486-038A-4982-B75F-529422C97B8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18BD2372-0FF5-426E-A296-3BD6F28AA6FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18BD2372-0FF5-426E-A296-3BD6F28AA6FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18BD2372-0FF5-426E-A296-3BD6F28AA6FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18BD2372-0FF5-426E-A296-3BD6F28AA6FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5646E18C-8A02-4AF4-B6D0-5C72C44095B6}
+	EndGlobalSection
+EndGlobal
